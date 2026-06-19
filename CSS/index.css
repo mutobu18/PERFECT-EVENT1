@@ -8,8 +8,9 @@
 
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url('../Images/organiser.jpg');
+    
     background-size: cover;
+    background-color:#FFFFFF;
      
     background-position: center;
     color: black;
