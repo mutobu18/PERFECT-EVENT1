@@ -33,15 +33,18 @@
 
     <h2>Book Your Event</h2>
 
-    <form class="book-form">
+    <!-- the action attribute specifies where to send the form data when the form is submitted -->
+     <!--the method attribute specifies the HTTP method to use when sending form data -->
 
-        <input type="text" placeholder="Full Name" required>
+    <form class="booking-form" action="booking-form.php" method="POST">
 
-        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="Full Name" name="fullName" required>
 
-        <input type="tel" placeholder="Phone Number" required>
+        <input type="email" placeholder="Email Address" name="email" required>
 
-        <select required>
+        <input type="tel" placeholder="Phone Number" name="phone" required>
+        <!-- we use the required attribute to make the inputs fields mandatory -->
+        <select name="eventType" required>
             <option value="">Select Event Type</option>
             <option>Wedding</option>
             <option>Birthday</option>
@@ -49,9 +52,9 @@
             <option>Private Party</option>
         </select>
 
-        <input type="date" required>
+        <input type="date" name="event-date" required>
 
-        <textarea placeholder="Event Details (Location, Guests, etc...)" rows="5"></textarea>
+        <textarea placeholder="Event Details (Location, Guests, etc...)" name="eventDetails" rows="5"></textarea>
 
         <button type="submit">Confirm Booking</button>
 
