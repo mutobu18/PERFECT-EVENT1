@@ -45,3 +45,31 @@
 .book-form button:hover {
     background: black;
 }
+
+/*  to make the page looks also good on a smaller screen  */
+@media (max-width: 768px) {
+
+    .book-section {
+        padding: 40px 15px;
+    }
+
+    .book-section h2 {
+        font-size: 28px;
+    }
+
+    .book-form {
+        width: 90%;
+    }
+
+    .book-form input,
+    .book-form select,
+    .book-form textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .book-form button {
+        font-size: 14px;
+    }
+
+}

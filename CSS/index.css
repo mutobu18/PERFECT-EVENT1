@@ -176,3 +176,67 @@ body {
     text-align: center;
     color:black;
 }
+
+/* Mobile view */
+@media (max-width: 768px) {
+
+    /* Header */
+    #header-section {
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 30px;
+        margin: 15px;
+    }
+
+
+    .logo {
+        font-size: 22px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+
+    #nav-buttons ul {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+
+    /* Hero section */
+    #hero {
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    .hero-left {
+        padding: 40px 25px;
+        margin: 15px;
+        text-align: center;
+    }
+
+
+    .hero-left p {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+
+    .main-btn {
+        margin: 25px auto;
+    }
+
+
+    /* Images */
+    .hero-right {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+
+    .image-card img {
+        height: 220px;
+    }
+
+}
