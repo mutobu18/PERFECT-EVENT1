@@ -47,29 +47,92 @@
 }
 
 /*  to make the page looks also good on a smaller screen  */
-@media (max-width: 768px) {
+@media (max-width:768px) {
 
-    .book-section {
-        padding: 40px 15px;
+
+    #header-section {
+        padding:15px;
+        margin:10px;
+        border-radius:35px;
     }
 
-    .book-section h2 {
-        font-size: 28px;
+
+    .logo {
+        font-size:18px;
     }
 
-    .book-form {
-        width: 90%;
+
+    #nav-buttons ul {
+        gap:10px;
     }
 
-    .book-form input,
-    .book-form select,
-    .book-form textarea {
-        font-size: 14px;
-        padding: 10px;
+
+    #nav-buttons ul li a {
+        font-size:11px;
     }
 
-    .book-form button {
-        font-size: 14px;
+
+
+    #hero {
+
+        
+        flex-direction:row;
+        height:auto;
+    }
+
+
+
+    .hero-left {
+
+        padding:20px 10px;
+        margin:10px;
+        flex:0.9;
+        border-radius:30px;
+    }
+
+
+    .hero-left h4 {
+        font-size:14px;
+    }
+
+
+    .hero-left p {
+        font-size:11px;
+    }
+
+
+
+    .main-btn {
+        padding:8px 12px;
+        font-size:11px;
+        margin-top:15px;
+    }
+
+
+
+
+    .hero-right {
+
+        flex:1;
+        grid-template-columns:repeat(2,1fr);
+        gap:8px;
+        padding:5px;
+
+    }
+
+
+
+    .image-card img {
+
+        height:90px;
+
+    }
+
+
+    .description-image {
+
+        font-size:10px;
+
     }
 
 }
