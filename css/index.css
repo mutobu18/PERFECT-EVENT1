@@ -39,7 +39,7 @@ body {
     margin-top: 20px;
 }
 
-/* NAV */
+
 #nav-buttons ul {
     list-style: none;
     display: flex;
@@ -116,7 +116,7 @@ body {
     max-width: 400px;
 }
 
-/* BUTTON */
+
 .main-btn {
     margin-top: 30px;
     padding: 12px 25px;

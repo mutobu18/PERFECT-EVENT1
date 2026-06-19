@@ -1,4 +1,4 @@
-/* BOOK PAGE */
+
 .book-section {
     text-align: center;
     padding: 60px 20px;
@@ -9,7 +9,7 @@
     margin-bottom: 30px;
 }
 
-/* FORM */
+
 .book-form {
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
     gap: 15px;
 }
 
-/* INPUTS */
+
 .book-form input,
 .book-form select,
 .book-form textarea {
@@ -30,7 +30,7 @@
     font-size: 16px;
 }
 
-/* BUTTON */
+
 .book-form button {
     padding: 12px;
     background: rgb(238, 82, 189);

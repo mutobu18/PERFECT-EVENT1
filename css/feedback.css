@@ -1,4 +1,4 @@
-/* FEEDBACK PAGE */
+
 .feedback-section {
     text-align: center;
     padding: 60px 20px;
@@ -9,7 +9,7 @@
     margin-bottom: 30px;
 }
 
-/* FORM */
+
 .feedback-form {
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@
     background: black;
 }
 
-/* FEEDBACK CARDS */
+
 .feedback-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
